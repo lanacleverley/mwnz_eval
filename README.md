@@ -18,6 +18,11 @@ To run the flask app:
 flask --app flaskr run
 ```
 
+To see an example of jsonified company data in the browser:
+```
+http://127.0.0.1:5000/xml-api/1
+```
+
 # Trouble Shooting
 If this error occurs when installing the project, then a newer version of pip needs to be used.
 ```
