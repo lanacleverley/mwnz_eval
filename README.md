@@ -1,6 +1,8 @@
 # mwnz_eval
-Code for https://github.com/MiddlewareNewZealand/evaluation-instructions/tree/main. 
 Aim is to build simple application that connects to a static XML API and transforms it to a JSON response.
+
+Application specifications and the OpenApi schmea can be found here:
+https://github.com/MiddlewareNewZealand/evaluation-instructions/tree/main. 
 
 # Getting started
 Installation
