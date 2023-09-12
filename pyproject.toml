@@ -1,0 +1,31 @@
+[project]
+name = "msnz_eval"
+version = "1.0.0"
+description = "Get company information from an api and transform it to align with specs "
+dependencies = [
+    "flask",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[build-system]
+requires = ["flit_core<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.module]
+name = "flaskr"
+
+[tool.flit.sdist]
+include = [
+    "tests/",
+]
+
+# pyproject.toml
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+    "integration",
+]
