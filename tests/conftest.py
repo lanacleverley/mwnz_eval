@@ -1,10 +1,10 @@
 import pytest
 
-import flaskr 
+from ..flaskr import create_app
 
 @pytest.fixture
 def app():
-    app = flaskr.app
+    app = create_app()
     return app
 
 @pytest.fixture

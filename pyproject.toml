@@ -1,9 +1,10 @@
 [project]
-name = "msnz_eval"
+name = "flaskr"
 version = "1.0.0"
 description = "Get company information from an api and transform it to align with specs "
 dependencies = [
     "flask",
+    "requests"
 ]
 
 [project.optional-dependencies]

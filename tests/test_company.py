@@ -1,4 +1,4 @@
-from flaskr import company
+from ..flaskr import company
 import json
 
 test_xml ="""<?xml version="1.0" encoding="UTF-8"?><Data><id>1</id><name>MWNZ</name><description>..is awesome</description></Data>"""
